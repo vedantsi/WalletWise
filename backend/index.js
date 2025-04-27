@@ -6,17 +6,23 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { connectDB } from "./DB/Database.js";
+import userRouter from "./router/user-router.js";
+import otpRouter from "./router/otp-router.js";
+import tranactionRouter from "./router/transaction-router.js";
 
 dotenv.config({ path: "./config/config.env" });
+
 const app = express();
 const port = process.env.PORT;
 
 connectDB();
 
-const allowedOrigins = [
-    "http://localhost:3000"
+const allowedOrigins = [ 
+    "http://localhost:3000",
+    // add more origins as needed
 ];
 
+// Middleware
 app.use(express.json());
 app.use(
     cors({
