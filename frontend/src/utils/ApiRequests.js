@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://walletwise-hr69.onrender.com";
 
 export const sendOtpApi = `${baseUrl}/api/otp/sendOTP`;
 export const verifyOtpApi = `${baseUrl}/api/otp/verifyOTP`;
