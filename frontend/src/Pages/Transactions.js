@@ -227,7 +227,7 @@ const Transactions = () => {
                 <h2
                     style={{
                         textAlign: "center",
-                        color: "rgb(225, 1, 79)",
+                        color: "rgb(4, 74, 160)",
                         fontFamily: "sans-serif",
                     }}
                 >
