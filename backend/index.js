@@ -18,7 +18,8 @@ const port = process.env.PORT;
 connectDB();
 
 const allowedOrigins = [ 
-    "http://localhost:3000",
+    "wallet-wise-02.vercel.app",
+    "wallet-wise-two.vercel.app"
     // add more origins as needed
 ];
 
