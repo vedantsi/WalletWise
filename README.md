@@ -5,7 +5,7 @@
 -   [Project Description](#project-description)
 -   [Objectives](#objectives)
 -   [Features](#features)
--   [Technologies Used](#technologies-used
+-   [Technologies Used](#technologies-used)
 -   [Tech Stack](#tech-stack)
 
 ## Project Description
